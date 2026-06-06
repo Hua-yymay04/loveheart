@@ -26,3 +26,44 @@ body {
     pointer-events: none;
     text-shadow: 0 0 5px #fff, 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 40px #ff69b4;
 }
+.petal{
+    position:absolute;
+    top:-50px;
+
+    color:#ffc0cb;
+
+    font-size:24px;
+
+    pointer-events:none;
+
+    animation-name:fall;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+
+    opacity:0.8;
+}
+
+@keyframes fall{
+
+    0%{
+        transform:
+        translateY(-50px)
+        translateX(0px)
+        rotate(0deg);
+
+        opacity:0;
+    }
+
+    10%{
+        opacity:1;
+    }
+
+    100%{
+        transform:
+        translateY(110vh)
+        translateX(150px)
+        rotate(720deg);
+
+        opacity:0;
+    }
+}
