@@ -8,7 +8,7 @@ for (let i = 0; i < WORD_COUNT; i++) {
     const span = document.createElement("span");
 
     span.className = "word";
-    span.innerText = "BREUH ";
+    span.innerText = "Good luck BABE!";
 
     heart.appendChild(span);
 
