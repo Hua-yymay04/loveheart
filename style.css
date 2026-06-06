@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#heart {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.word {
+    position: absolute;
+    color: #ffb6d5;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    pointer-events: none;
+    text-shadow: 0 0 5px #fff, 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 40px #ff69b4;
+}
